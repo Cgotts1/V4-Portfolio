@@ -20,13 +20,14 @@ var styles = `{
 
 
 
+// Had me flip around my if statement to get it working on the first click https://stackoverflow.com/questions/28100979/button-does-not-function-on-the-first-click
+
 resumeBtn.addEventListener("click", function(){
 
-
-  if(resumeDiv.style.display === "none"){
-resumeDiv.style.display = "block";
-  } else{
+  if(resumeDiv.style.display === "block"){
 resumeDiv.style.display = "none";
+  } else{
+resumeDiv.style.display = "block";
   }
 })
 
