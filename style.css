@@ -51,6 +51,9 @@ li {
 .nav-links a:hover {
   background-color: #f4fcff;
   color: black;
+  transition: 0.3s ease;
+  /* box-shadow: 0px 0px 0px; */
+
 }
 
 a {
@@ -177,37 +180,45 @@ footer {
   border: solid black;
 }
 
-@media screen and (max-width: 1290px) {
+
+@media screen and (max-width: 1480px) {
   pre {
     font-size: 13px;
   }
 }
 
-@media screen and (max-width: 1220px) {
+
+@media screen and (max-width: 1310px) {
   pre {
     font-size: 12px;
   }
 }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1225px) {
   pre {
     font-size: 11px;
   }
 }
 
-@media screen and (max-width: 1035px) {
+@media screen and (max-width: 1140px) {
   pre {
     font-size: 10px;
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1060px) {
   pre {
     font-size: 9px;
   }
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 970px) {
+  pre {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 885px) {
   pre {
     font-size: 11px;
     overflow: scroll;
@@ -240,6 +251,9 @@ footer {
 #full-stack-about{
   background-color: black;
   color: rgb(206, 206, 206);
+ box-shadow: 5px 3px 3px rgb(255, 255, 255);
+
+  
 }
 
 #full-stack-footer{
@@ -251,4 +265,9 @@ footer {
   background-color: black;
   color: rgb(255, 255, 255);
   border: rgb(39, 39, 39) solid;
+}
+
+#full-stack-work:hover{
+ box-shadow: 5px 3px 3px rgb(2, 65, 0);
+
 }
