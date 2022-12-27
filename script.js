@@ -3,33 +3,82 @@ const resumeDiv = document.querySelector("#resume-div")
 const overLay = document.querySelectorAll(".overlay")
 const work = document.querySelectorAll(".work")
 
+// Variables for navigating to other pages
+const fullstack = document.querySelector("#full-stack-portfolio")
 
-
-var styles = `{
-.overLay {
-    position: absolute;
-    background-color: white;
-    z-index: 1;
-    margin-left: 70px;
-    padding:10px;
-    border-radius: 15px;
-    transition: .5s ease;
-    font-size:200px;
-}
-}`
 
 
 
 // Had me flip around my if statement to get it working on the first click https://stackoverflow.com/questions/28100979/button-does-not-function-on-the-first-click
 
 resumeBtn.addEventListener("click", function(){
-
+  
   if(resumeDiv.style.display === "block"){
-resumeDiv.style.display = "none";
+    resumeDiv.style.display = "none";
   } else{
-resumeDiv.style.display = "block";
+    resumeDiv.style.display = "block";
   }
 })
+
+
+
+
+
+// fullstack.addEventListener("click", function(){
+  
+//   window.location.replace("./full-stack-porfolio.html")
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var styles = `{
+// .overLay {
+//     position: absolute;
+//     background-color: white;
+//     z-index: 1;
+//     margin-left: 70px;
+//     padding:10px;
+//     border-radius: 15px;
+//     transition: .5s ease;
+//     font-size:200px;
+// }
+// }`
+
+
+
+
 
 
 
