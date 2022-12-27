@@ -33,36 +33,36 @@ resumeDiv.style.display = "block";
 
 
 
-for (let i = 0; i < work.length; i++) {
-  work[i].addEventListener("mouseover", displayReveal)
+// for (let i = 0; i < work.length; i++) {
+//   work[i].addEventListener("mouseover", displayReveal)
  
-}
+// }
 
 
 
-function displayReveal(){
+// function displayReveal(){
   
-  for (let i = 0; i < overLay.length; i++) {
-    overLay[i].style.display = 'block'
-  }
-}
+//   for (let i = 0; i < overLay.length; i++) {
+//     overLay[i].style.display = 'block'
+//   }
+// }
 
 
 
 
-for (let i = 0; i < overLay.length; i++) {
-  overLay[i].addEventListener("mouseover", backWhite)
+// for (let i = 0; i < overLay.length; i++) {
+//   overLay[i].addEventListener("mouseover", backWhite)
   
-}
+// }
 
-overLay.addEventListener('mouseover', backWhite)
+// overLay.addEventListener('mouseover', backWhite)
 
 
 
-function backwhite(){
+// function backwhite(){
   
-  this.style.display = "none"
-}
+//   this.style.display = "none"
+// }
 
 
 
