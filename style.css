@@ -3,6 +3,7 @@
 
 body {
   margin:50px;
+  /* margin: 3%; */
   font-family: "Playfair Display", serif;
   font-weight: bolder;
   letter-spacing: 0.7px;
@@ -259,6 +260,19 @@ footer {
     display: block;
     box-shadow: 10px 5px 5px rgb(34, 33, 33);
   }
+
+  .about {
+    padding:20px;
+      }
+
+      body{
+        margin:20px;
+      }   
+
+      #resume-div{
+        margin-right:0px;
+        margin-left: 0px;
+      }
 }
 
 @media screen and (max-width: 400px) {
@@ -271,6 +285,7 @@ footer {
     display: block;
     box-shadow: 10px 5px 5px rgb(34, 33, 33);
   }
+
 }
 
 
@@ -303,7 +318,7 @@ footer {
 #full-stack-about{
   /* background-color: black; */
   box-shadow: 5px 3px 3px rgb(146, 146, 146);
-  padding:50px;
+  /* padding:50px; */
   opacity: 0.9;
 }
 
