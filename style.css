@@ -312,7 +312,9 @@ footer {
 }
 
 .full-stack-body {
-  background-image: url("./images/clouds.jpg");
+  background-image: url("/images/daniele-colucci-8MoRs-DVtas-unsplash.jpg");
+  /* background-image: url("https://images.unsplash.com/photo-1597739239353-50270a473397?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80"); */
+
   background-size: cover;
   background-position: center;
 }
@@ -323,8 +325,9 @@ footer {
 }
 
 .full-stack-li a {
-  background-color: white;
-  color: black;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
+
 }
 
 .full-stack-li {
@@ -332,14 +335,18 @@ footer {
 }
 
 .full-stack-li a:hover {
-  background-color: rgb(255, 197, 197);
+  background-color: white;
+  color: black;
+
 }
 
 .full-stack-h2 {
   /* color:black;
  opacity: 0.55; */
-  background-color: rgba(255, 255, 255, 0.1);
-  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
+  border: solid 1px white;
+  border-left: none;
 }
 
 #full-stack-about {
@@ -361,11 +368,13 @@ footer {
 }
 
 #full-stack-work {
+  opacity: 0.9;
   /* box-shadow: 1px 7px 7px 3px rgb(228, 228, 228); */
 }
 
 #full-stack-work:hover {
-  box-shadow: 5px 3px 3px rgb(54, 54, 54);
+  opacity: 1;
+  box-shadow: 5px 8px 8px rgb(20, 20, 20);
 }
 
 /* art Webpage */
@@ -377,6 +386,12 @@ footer {
   background-repeat: no-repeat;
   margin: 0;
 }
+
+
+#art-ul{
+  
+}
+
 
 #art-header{
 
@@ -475,4 +490,27 @@ aside {
   position: relative;
   width: 150px;
   text-align: center;
+}
+
+
+
+@media screen and (max-width: 797px) {
+  aside {
+   
+    width: max-content;
+    height: max-content;
+        
+  } 
+
+  .art-section{
+    height:500px;
+    width: 500px;
+  }
+  
+  .art-p{
+    display: flex;
+    height: max-content;
+    width: max-content;
+    
+  }
 }
