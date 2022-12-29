@@ -368,12 +368,15 @@ footer {
 }
 
 #full-stack-work {
-  opacity: 0.9;
+  filter: grayscale(0);
+  opacity: 0.95;
+  /* transition: 2s ease; */
   /* box-shadow: 1px 7px 7px 3px rgb(228, 228, 228); */
 }
 
 #full-stack-work:hover {
   opacity: 1;
+  filter:brightness(1.14);
   box-shadow: 5px 8px 8px rgb(20, 20, 20);
 }
 
