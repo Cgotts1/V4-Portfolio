@@ -27,8 +27,8 @@ footer {
   z-index: 3;
 }
 
-
-h1, h2 {
+h1,
+h2 {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   width: fit-content;
@@ -39,7 +39,7 @@ h1, h2 {
   border-top-right-radius: 4px;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px; 
+  border-bottom-left-radius: 0px;
 }
 
 h1 {
@@ -62,6 +62,8 @@ li {
   background-color: rgb(0, 0, 0);
   opacity: 1;
   box-shadow: 10px 5px 5px rgb(34, 33, 33);
+  /* text-decoration: none; */
+
 }
 
 .nav-links a:hover {
@@ -90,7 +92,6 @@ figure {
   box-shadow: 10px 5px 5px rgb(34, 33, 33);
 }
 
-
 #about-me {
   margin-top: 100px;
   margin-bottom: -15px;
@@ -101,7 +102,7 @@ figure {
   /* background-repeat: no-repeat; */
   background-position-x: right;
   background-size: cover;
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   padding: 40px;
   border-radius: 15px;
   margin-top: 35px;
@@ -110,7 +111,6 @@ figure {
   /* box-shadow: 10px 5px 5px rgb(34, 33, 33); */
   opacity: 0.98;
 }
-
 
 .main-image {
   display: flex;
@@ -147,7 +147,7 @@ figure {
   border-radius: 20px;
   flex-wrap: wrap;
   filter: grayscale(2);
-
+  border: solid black;
 }
 
 .work:hover {
@@ -209,17 +209,16 @@ footer {
   border-top-right-radius: 4px;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;  
+  border-bottom-left-radius: 0px;
   border-left: none;
+  box-shadow: 10px 5px 5px rgb(34, 33, 33);
 }
-
 
 @media screen and (max-width: 1670px) {
   pre {
     font-size: 16px;
   }
 }
-
 
 @media screen and (max-width: 1401px) {
   pre {
@@ -262,18 +261,15 @@ footer {
   }
 }
 
-
 @media screen and (max-width: 505px) {
- 
-
-  header, footer{
+  header,
+  footer {
     justify-content: flex-start;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
   }
 
-  h1{
+  h1 {
     margin-bottom: -10px;
-    
   }
 
   .pro-pic {
@@ -286,14 +282,18 @@ footer {
     box-shadow: 10px 5px 5px rgb(34, 33, 33);
   }
 
-  .about {
-    padding:20px;
-      }
+  #about-me{
+margin-top: 50px;
+  }
 
-      #resume-div{
-        margin-right:0px;
-        margin-left: 0px;
-      }
+  .about {
+    padding: 20px;
+  }
+
+  #resume-div {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -301,71 +301,68 @@ footer {
     width: 225px;
     height: 225px;
     border-radius: 50%;
-    margin-top: -350px;
+    margin-top: -300px;
     margin-left: 20px;
     display: block;
     box-shadow: 10px 5px 5px rgb(34, 33, 33);
   }
 
+  h2{}
 }
 
-
-
-.full-stack-body{
-  background-image: url('./images/clouds.jpg');
+.full-stack-body {
+  background-image: url("./images/clouds.jpg");
   background-size: cover;
   background-position: center;
 }
 
-#full-stack-header, #full-stack-footer{
- margin-bottom: -75px;
+#full-stack-header,
+#full-stack-footer {
+  margin-bottom: -75px;
 }
 
-.full-stack-li a{
+.full-stack-li a {
   background-color: white;
-  color:black;
+  color: black;
 }
 
-.full-stack-li{
+.full-stack-li {
   margin-top: 30px;
 }
 
-.full-stack-li a:hover{
-  background-color: rgb(255, 195, 156);
+.full-stack-li a:hover {
+  background-color: rgb(255, 197, 197);
 }
 
-.full-stack-h2{
+.full-stack-h2 {
   /* color:black;
  opacity: 0.55; */
- background-color: rgba(255, 255, 255, 0.1);
- color: rgb(0, 0, 0);
-
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(0, 0, 0);
 }
 
-#full-stack-about{
+#full-stack-about {
   /* background-color: black; */
   box-shadow: 5px 3px 3px rgb(146, 146, 146);
   /* padding:50px; */
   opacity: 0.9;
 }
 
-/* #full-stack-p{
-  background: rgba(241, 48, 48, 0.9);
+#full-stack-works{
+  background-image: url('');
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+}
 
-} */
-
-
-
-
-
-#full-stack-overlay{
-  /* box-shadow: 5px 8px 5px rgb(255, 243, 243); */
-
-  /* border: none; */
+#full-stack-overlay {
   border-left: none;
 }
 
-#full-stack-work:hover{
- box-shadow: 5px 3px 3px rgb(54, 54, 54);
+#full-stack-work {
+  /* box-shadow: 1px 7px 7px 3px rgb(228, 228, 228); */
+}
 
+#full-stack-work:hover {
+  box-shadow: 5px 3px 3px rgb(54, 54, 54);
 }
