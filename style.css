@@ -503,14 +503,14 @@ aside {
   } 
 
   .art-section{
-    height:500px;
-    width: 500px;
+    height:100vh;
+    width: 100vw;
   }
   
   .art-p{
     display: flex;
     height: max-content;
-    width: max-content;
+    width: 100vw;
     
   }
 }
