@@ -355,7 +355,7 @@ footer {
   opacity: 0.9;
 }
 
-@media screen and (min-width: 797px) {
+@media screen and (min-width: 1200px) {
   #full-stack-about {
     width: 40%;
     margin-left: 20px;
@@ -376,14 +376,13 @@ footer {
 
 #full-stack-work {
   filter: grayscale(0);
-  opacity: 0.95;
-  /* transition: 2s ease; */
-  /* box-shadow: 1px 7px 7px 3px rgb(228, 228, 228); */
+  /* opacity: 0.85; */
+  
 }
 
 #full-stack-work:hover {
   opacity: 1;
-  filter:brightness(1.14);
+  /* filter:brightness(1.14); */
   box-shadow: 5px 8px 8px rgb(20, 20, 20);
 }
 
