@@ -352,12 +352,19 @@ footer {
 #full-stack-about {
   /* background-color: black; */
   box-shadow: 5px 3px 3px rgb(146, 146, 146);
-  /* padding:50px; */
   opacity: 0.9;
 }
 
+@media screen and (min-width: 797px) {
+  #full-stack-about {
+    width: 40%;
+    margin-left: 20px;
+    height: auto;
+        
+  } 
+}
+
 #full-stack-works {
-  background-image: url("");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -403,7 +410,7 @@ footer {
 }
 
 .art-li{
-  
+ 
 }
 
 .art-image1, .art-image2, .art-image3 {
@@ -516,4 +523,34 @@ aside {
     width: 100vw;
     
   }
+}
+
+
+/* Anthropology page */
+
+.anthropology-body{
+  background-image: url('./images/joyce-mccown-LAEPsbXOhIM-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.anthropology-p{
+  font-size: 133px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color:rgb(191, 191, 191);
+  font-style: italic;
+  padding:20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 790px) {
+  .anthropology-p {
+   font-size: 90px;
+  } 
+}
+
+@media screen and (max-width: 400px) {
+  .anthropology-p {
+   font-size: 66px;
+  } 
 }
