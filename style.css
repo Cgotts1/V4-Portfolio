@@ -409,6 +409,17 @@ footer {
   font-style: italic;
 }
 
+@media screen and (max-width: 640px) {
+  #full-stack-p-1, #full-stack-p-2 {
+    font-size: 56px;
+  }
+  
+  #full-stack-pro-pic{
+    height: 380px;
+    width: 380px;
+  }
+}
+
 /* #full-stack-about {
 } */
 
