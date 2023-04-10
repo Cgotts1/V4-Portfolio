@@ -7,8 +7,8 @@
 ## <section id = "Description">Description</section>
 Welcome to my work in progress junior software developer portfolio! This portfolio is being built using HTML, CSS, and JavaScript. To view my completed software developer portfolio, please check out my React-Portfolio-Clone repository. 
 
-Link to application: 
-![Site](./images/readme.png)
+Link to application: https://cgotts1.github.io/V4-Portfolio/full-stack-portfolio.html
+![Portfolio Image](./images/readme.png)
 
 
 ## Table of Contents
